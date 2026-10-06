@@ -25,6 +25,7 @@ class _MainScreenState extends State<MainScreen> {
       body: IndexedStack(index: currentIndex, children: pages),
 
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: AppColors.ofwhite,
         currentIndex: currentIndex,
 
         onTap: (index) {

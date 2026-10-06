@@ -131,12 +131,16 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.ofwhite,
       body: SingleChildScrollView(
+       
         child: Column(
+          
           children: [
             // ================= HEADER =================
             Stack(
               clipBehavior: Clip.none,
+              
               children: [
                 // Brown header
                 Container(
